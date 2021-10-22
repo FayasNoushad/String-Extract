@@ -3,3 +3,12 @@ def lines(string):
 
 def space(string):
     return len(string.split())
+
+def links(string):
+    total = []
+    https = string.split("https://")
+    for i in https:
+        set = i.split("http://")
+        for subset in set:
+            total.append(subset)
+    return len(total) - 1
