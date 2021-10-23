@@ -19,14 +19,23 @@ pip install String-Extract
 
 ```py
 string = """Hi [Fayas](https://fayas.me),
+
 How are you"""
+```
 
+```py
 print(lines(string))  # For total lines
+```
 
+```py
 print(spaces(string))  # For total spaces
+```
 
+```py
 print(words(string))  # For total words
+```
 
+```py
 print(links(string))  # For total links
 ```
 
