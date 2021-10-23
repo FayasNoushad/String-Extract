@@ -3,7 +3,7 @@ def lines(string):
 
 
 def space(string):
-    return len(string.split())
+    return len(string.split()) - 1
 
 
 def links(string):
