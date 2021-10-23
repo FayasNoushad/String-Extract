@@ -6,6 +6,10 @@ def space(string):
     return len(string.split()) - 1
 
 
+def words(string):
+    return len(string.split())
+
+
 def links(string):
     total = []
     https = string.split("https://")
