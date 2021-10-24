@@ -18,3 +18,7 @@ def links(string):
         for subset in set:
             total.append(subset)
     return len(total) - 1
+
+
+def urls(string):
+    return re.findall(r'(https?://[^\s]+)', string)
