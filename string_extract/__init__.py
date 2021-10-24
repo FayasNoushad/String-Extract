@@ -2,7 +2,7 @@ def lines(string):
     return len(string.split("\n"))
 
 
-def space(string):
+def spaces(string):
     return len(string.split()) - 1
 
 
