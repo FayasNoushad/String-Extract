@@ -18,6 +18,9 @@ pip install String-Extract
 ## Usage
 
 ```py
+from string_extract import lines, spaces, words, links, urls
+
+
 string = """Hi [Fayas](https://fayas.me),
 
 How are you"""
