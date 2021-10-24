@@ -39,6 +39,10 @@ print(words(string))  # For total words
 print(links(string))  # For total links
 ```
 
+```py
+print(urls(string))  # For all links of a string
+```
+
 ---
 
 ## Credits
