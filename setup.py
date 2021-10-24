@@ -3,8 +3,11 @@ from setuptools import setup, find_packages
 
 
 def requirements(file="requirements.txt") -> list:
-    with open(file, encoding="utf-8") as r:
-        return [i.strip() for i in r]
+    if os.path.isfile(file):
+        with open(file, encoding="utf-8") as r:
+            return [i.strip() for i in r]
+    else:
+        return []
 
 
 file = pathlib.Path(__file__).parent
