@@ -27,23 +27,28 @@ How are you"""
 ```
 
 ```py
-print(lines(string))  # For total lines
+print(lines(string))
+# => 3
 ```
 
 ```py
-print(spaces(string))  # For total spaces
+print(spaces(string))
+# => 3
 ```
 
 ```py
-print(words(string))  # For total words
+print(words(string))
+# => 5
 ```
 
 ```py
-print(links(string))  # For total links
+print(links(string))
+# => 1
 ```
 
 ```py
-print(urls(string))  # For all links of a string
+print(urls(string))
+# ["https://fayas.me"]
 ```
 
 ---
