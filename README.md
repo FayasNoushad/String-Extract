@@ -18,7 +18,7 @@ pip install String-Extract
 ## Usage
 
 ```py
-from string_extract import lines, spaces, words, links, urls
+import string_extract
 
 
 string = """Hi [Fayas](https://fayas.me),
@@ -27,27 +27,27 @@ How are you"""
 ```
 
 ```py
-print(lines(string))
+print(string_extract.lines(string))
 # => 3
 ```
 
 ```py
-print(spaces(string))
+print(string_extract.spaces(string))
 # => 3
 ```
 
 ```py
-print(words(string))
+print(string_extract.words(string))
 # => 5
 ```
 
 ```py
-print(links(string))
+print(string_extract.links(string))
 # => 1
 ```
 
 ```py
-print(urls(string))
+print(string_extract.urls(string))
 # ["https://fayas.me"]
 ```
 
