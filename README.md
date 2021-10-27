@@ -21,32 +21,20 @@ pip install String-Extract
 import string_extract
 
 
-string = """Hi [Fayas](https://fayas.me),
+string = """Hi [Fayas](https://fayas.me),\n\nHow are you"""
 
-How are you"""
-```
-
-```py
 print(string_extract.lines(string))
 # => 3
-```
 
-```py
 print(string_extract.spaces(string))
 # => 3
-```
 
-```py
 print(string_extract.words(string))
 # => 5
-```
 
-```py
 print(string_extract.links(string))
 # => 1
-```
 
-```py
 print(string_extract.urls(string))
 # ["https://fayas.me"]
 ```
