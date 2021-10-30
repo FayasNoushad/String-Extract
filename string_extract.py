@@ -14,13 +14,13 @@ def words(string):
 
 
 def links(string):
-    total = []
+    total = 0
     https = string.split("https://")
     for i in https:
         set = i.split("http://")
         for subset in set:
-            total.append(subset)
-    return len(total) - 1
+            total += 1
+    return total
 
 
 def urls(string):
