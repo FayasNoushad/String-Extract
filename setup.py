@@ -17,7 +17,7 @@ README = (file / "README.md").read_text()
 
 setup(
     name="String-Extract",
-    version="1.0.4",
+    version="1.0.5",
     author="FayasNoushad",
     long_description=README,
     long_description_content_type="text/markdown",
