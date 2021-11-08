@@ -21,7 +21,7 @@ pip install String-Extract
 import string_extract
 
 
-string = """Hi [Fayas](https://fayas.me),\n\nHow are you?"""
+string = """Hi [Fayas](https://fayas.me),\n\nHow are you?\n#SupportOpensource"""
 
 print(string_extract.lines(string))
 # => 3
