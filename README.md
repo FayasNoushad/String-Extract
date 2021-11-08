@@ -32,6 +32,12 @@ print(string_extract.spaces(string))
 print(string_extract.words(string))
 # => 5
 
+print(string_extract.hashtags(string))
+# => ["#SupportOpensource"]
+
+print(string_extract.total_hashtags(string))
+# => 1
+
 print(string_extract.links(string))
 # => 1
 
