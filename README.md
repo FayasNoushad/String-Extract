@@ -21,10 +21,15 @@ pip install String-Extract
 import string_extract
 
 
-string = "Hi [Fayas](https://fayas.me),\n\nHow are you?\n#SupportOpensource"
+string = """Hi [Fayas](https://fayas.me),
+
+How are you?
+
+#SupportOpensource"""
+
 
 print(string_extract.lines(string))
-# => 3
+# => 5
 
 print(string_extract.spaces(string))
 # => 3
