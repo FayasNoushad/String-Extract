@@ -47,7 +47,7 @@ print(string_extract.links(string))
 # => 1
 
 print(string_extract.urls(string))
-# ["https://fayas.me"]
+# => ["https://fayas.me"]
 ```
 
 ---
