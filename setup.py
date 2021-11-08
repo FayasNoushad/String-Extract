@@ -21,7 +21,7 @@ def readme(file="README.md"):
 
 setup(
     name="String-Extract",
-    version="1.0.8",
+    version="1.0.9",
     author="FayasNoushad",
     long_description=readme(),
     long_description_content_type="text/markdown",
