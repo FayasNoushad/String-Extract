@@ -20,15 +20,12 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="String-Extract",
-    version="1.1.1",
+    version="1.1.2",
     description="String Extractor",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/FayasNoushad/String-Extract",
-    download_url="https://github.com/FayasNoushad/String-Extract/releases/latest",
     license="MIT",
     author="Fayas Noushad",
-    author_email="contact@fayas.me",
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: English",
@@ -38,10 +35,10 @@ setuptools.setup(
     ],
     project_urls={
         "Tracker": "https://github.com/FayasNoushad/String-Extract/issues",
-        "Source": "https://github.com/FayasNoushad/String-Extract",
-        "Documentation": "https://string-extract.projects.fayas.me",
+        "Source": "https://github.com/FayasNoushad/String-Extract"
     },
     python_requires=">=3.6",
+    py_modules=['string_extract'],
     packages=setuptools.find_packages(),
     zip_safe=False,
     install_requires=requirements()
