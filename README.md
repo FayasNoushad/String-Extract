@@ -1,11 +1,5 @@
-```
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/String-Extract/blob/main/LICENSE
-```
-
----
+# String Extract
+Extract more items from string
 
 ## Installation
 
@@ -13,15 +7,13 @@ License -> https://github.com/FayasNoushad/String-Extract/blob/main/LICENSE
 pip install String-Extract
 ```
 
----
-
 ## Usage
 
 ```py
 import string_extract
 
 
-string = """Hi [Fayas](https://fayas.me),
+string = """Hi [Fayas](https://github.com),
 
 How are you?
 
@@ -47,13 +39,5 @@ print(string_extract.links(string))
 # => 1
 
 print(string_extract.urls(string))
-# => ["https://fayas.me"]
+# => ["https://github.com"]
 ```
-
----
-
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-
----
