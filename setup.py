@@ -26,7 +26,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license="MIT",
     author="Fayas Noushad",
-    author_email="contact@fayas.me",
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: English",
