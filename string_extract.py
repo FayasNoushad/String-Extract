@@ -11,7 +11,7 @@ def spaces(string):
 
 
 def words(string):
-    return string.split()
+    return string.replace("\n", " ").split()
 
 
 def hashtags(string):
