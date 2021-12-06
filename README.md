@@ -15,16 +15,14 @@ import string_extract
 
 string = """Hi [Fayas](https://github.com),
 
-How are you?
-
-#SupportOpensource"""
+How are you?"""
 ```
 
 ### Lines
 
 ```py
 print(string_extract.lines(string))
-# => 5
+# => 2
 ```
 
 ### Spaces
@@ -42,16 +40,6 @@ print(string_extract.words(string))
 
 print(len(string_extract.words(string)))
 # => 6
-```
-
-### Hashtags
-
-```py
-print(string_extract.hashtags(string))
-# => ["#SupportOpensource"]
-
-print(len(string_extract.hashtags(string)))
-# => 1
 ```
 
 ### Links
