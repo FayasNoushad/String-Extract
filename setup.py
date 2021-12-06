@@ -20,7 +20,7 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="String-Extract",
-    version="1.1.3",
+    version="1.1.4",
     description="String Extractor",
     long_description=readme(),
     long_description_content_type="text/markdown",
