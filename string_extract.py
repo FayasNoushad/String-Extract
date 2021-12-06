@@ -14,9 +14,5 @@ def spaces(string):
     return len(words(string)) - 1
 
 
-def hashtags(string):
-    return hashtags_extract.hashtags(string, hash=True)
-
-
 def links(string):
     return re.findall(r'(https?://[^\s]+)', string)
