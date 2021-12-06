@@ -6,31 +6,17 @@ def lines(string):
     return len(string.split("\n"))
 
 
-def spaces(string):
-    return len(string.split()) - 1
-
-
 def words(string):
-    return len(string.split())
+    return string.replace("\n", " ").split()
+
+
+def spaces(string):
+    return len(words(string)) - 1
 
 
 def hashtags(string):
-    return hashtags_extract.hashtags(string)
-
-
-def total_hashtags(string):
-    return len(hashtags_extract.hashtags(string))
+    return hashtags_extract.hashtags(string, hash=True)
 
 
 def links(string):
-    total = 0
-    https = string.split("https://")
-    for i in https:
-        set = i.split("http://")
-        for subset in set:
-            total += 1
-    return total
-
-
-def urls(string):
     return re.findall(r'(https?://[^\s]+)', string)
