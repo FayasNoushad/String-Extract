@@ -1,5 +1,4 @@
 import re
-import hashtags_extract
 
 
 def lines(string):
@@ -12,10 +11,6 @@ def words(string):
 
 def spaces(string):
     return len(words(string)) - 1
-
-
-def hashtags(string):
-    return hashtags_extract.hashtags(string, hash=True)
 
 
 def links(string):
