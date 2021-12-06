@@ -6,12 +6,12 @@ def lines(string):
     return len(string.split("\n"))
 
 
-def spaces(string):
-    return len(string.split()) - 1
-
-
 def words(string):
     return string.replace("\n", " ").split()
+
+
+def spaces(string):
+    return len(words(string)) - 1
 
 
 def hashtags(string):
