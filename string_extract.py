@@ -1,5 +1,4 @@
 import re
-import hashtags_extract
 
 
 def lines(string):
