@@ -12,7 +12,7 @@ def requirements(file="requirements.txt"):
 
 def readme(file="README.md"):
     if os.path.isfile(file):
-        with open(file, encoding="utf8") as r:
+        with open(file, encoding="utf-8") as r:
             return r.read()
     else:
         return ""
