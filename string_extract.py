@@ -2,11 +2,11 @@ import re
 
 
 def lines(string):
-    return len(string.split("\n"))
+    return len(string.split("\n")) + 1
 
 
 def words(string):
-    return string.replace("\n", " ").split()
+    return string.split()
 
 
 def spaces(string):
