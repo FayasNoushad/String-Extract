@@ -22,7 +22,7 @@ How are you?"""
 
 ```py
 print(string_extract.lines(string))
-# => 2
+# => 3
 ```
 
 ### Spaces
